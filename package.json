@@ -1,0 +1,26 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bin": "app.js",
+  "pkg": {
+    "scripts": "app.js",
+    "assets": [
+      "public/**/*"
+    ],
+    "targets": [
+      "node14-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
